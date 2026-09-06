@@ -67,7 +67,10 @@ h1 > span { color: var(--accent); }
 .publications a:hover { background: #f5f8ff; border-color: #9ab4dc; text-decoration: none; }
 .publication-title { display: block; font-size: 16px; line-height: 1.5; color: var(--ink); margin-top: 5px; }
 .link-arrow { font-size: 22px; }
-.patent-heading { margin-top: 34px; }
+.paper-heading { margin-top: 34px; }
+.publication-authors { display: block; font: 12px/1.7 var(--mono); color: var(--muted); margin-top: 8px; }
+.publication-authors strong { color: var(--ink); font-weight: 600; }
+.publication-note { display: block; font-size: 13px; line-height: 1.65; color: var(--body); margin-top: 6px; }
 .patents { display: grid; grid-template-columns: 1fr 1fr; gap: 22px 30px; }
 .patents li { border-top: 1px solid var(--line); padding-top: 12px; }
 .patents a { display: block; }
@@ -78,6 +81,8 @@ h1 > span { color: var(--accent); }
 .education h4 { font-size: 15px; font-weight: 550; }
 .education p { font-size: 13px; }
 .education .metadata { font-size: 11px; margin-top: 5px; }
+.thesis { margin-top: 8px; font-size: 13px; }
+.thesis a { color: var(--accent); }
 .toolkit { font-size: 14px; margin-bottom: 30px; }
 .language-level { color: var(--muted); font-size: 13px; }
 .language-separator { margin: 0 16px; }
