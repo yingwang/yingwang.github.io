@@ -12,24 +12,28 @@
 </head>
 <body>
     <h1>WatchReader Privacy Policy</h1>
-    <p><em>Last updated: October 28, 2026</em></p>
+    <p><em>Last updated: November 18, 2026</em></p>
 
     <h2>Overview</h2>
-    <p>WatchReader is an e-book reader for Wear OS with a companion phone app. Books you add on the phone are copied to the watch over the Bluetooth link between the two devices. There is no WatchReader server, account or sign-in.</p>
+    <p>WatchReader is an e-book reader for Wear OS with a companion phone app. Books you add on the phone are copied to the watch, and reading positions, bookmarks (each with the line of text it marks) and the watch's reading time are kept in step between the two, through the Wear OS data layer of Google Play services: directly over Bluetooth when the two devices are connected that way, and otherwise over Wi-Fi or mobile data through Google's servers. There is no WatchReader server, account or sign-in.</p>
 
     <h2>Data collection</h2>
     <p>WatchReader does <strong>not</strong> collect, store or transmit any personal data to the developer or to third parties. The app contains no analytics, advertising or tracking code.</p>
 
     <h2>What stays on your devices</h2>
     <ul>
-        <li><strong>Books</strong> you add are stored in the app's private storage on the phone and on the watch. They are removed when you delete them in the app or uninstall it.</li>
+        <li><strong>Books</strong> you add are stored in the app's private storage on the phone and on the watch. They are removed when you delete them in the app or uninstall it, apart from any copy in your Android backup (see Backup below).</li>
         <li><strong>Reading position</strong> (how far you are in each book) is stored on the watch and mirrored to the phone app.</li>
         <li><strong>Settings</strong> such as font size, typeface, page colour and read-aloud speed are stored on the watch, and the phone reader's own settings on the phone.</li>
         <li><strong>Highlights and notes</strong> you make in the phone's reader are stored in the app's private storage on the phone. They are removed with the book.</li>
+        <li><strong>Bookmarks</strong>, each with a short line of the text it marks, are stored on the phone and on the watch and kept in step between them. Deleting a book clears its bookmarks.</li>
     </ul>
 
+    <h2>Backup</h2>
+    <p>WatchReader takes part in Android's own backup. If backup is turned on for your Google account, Android may copy the app's data there: your books, highlights, notes, bookmarks, reading positions, reading time and settings. Android keeps at most 25 MB for each app, so a larger library is not backed up at all. The copy is restored when you install the app again, or set up a new device, with the same account, and the same data is copied across when you move to a new phone directly from your old one. The watch app is backed up in the same way where Wear OS supports it. WatchReader itself never sees or handles this copy, and you can turn backup off in your device's settings.</p>
+
     <h2>Network access</h2>
-    <p>The phone app uses the internet only when you search for or download a free book from Project Gutenberg under Discover. Those requests go directly to Project Gutenberg's catalogue. The watch app does not use the internet at all.</p>
+    <p>The phone app uses the internet only when you search for or download a free book from Project Gutenberg under Free books. Those requests go directly to Project Gutenberg's catalogue. The watch app itself does not use the internet.</p>
 
     <h2>Read aloud</h2>
     <p>Reading aloud uses the text-to-speech engine installed on your watch or phone (for example Google Speech Services). The text is handed to that engine on the device; WatchReader does not send it anywhere. The engine's own privacy policy applies to how it processes speech.</p>
