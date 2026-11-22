@@ -12,7 +12,7 @@
 </head>
 <body>
     <h1>WatchReader Privacy Policy</h1>
-    <p><em>Last updated: November 18, 2026</em></p>
+    <p><em>Last updated: November 22, 2026</em></p>
 
     <h2>Overview</h2>
     <p>WatchReader is an e-book reader for Wear OS with a companion phone app. Books you add on the phone are copied to the watch, and reading positions, bookmarks (each with the line of text it marks) and the watch's reading time are kept in step between the two, through the Wear OS data layer of Google Play services: directly over Bluetooth when the two devices are connected that way, and otherwise over Wi-Fi or mobile data through Google's servers. There is no WatchReader server, account or sign-in.</p>
@@ -33,17 +33,17 @@
     <p>WatchReader takes part in Android's own backup. If backup is turned on for your Google account, Android may copy the app's data there: your books, highlights, notes, bookmarks, reading positions, reading time and settings. Android keeps at most 25 MB for each app, so a larger library is not backed up at all. The copy is restored when you install the app again, or set up a new device, with the same account, and the same data is copied across when you move to a new phone directly from your old one. The watch app is backed up in the same way where Wear OS supports it. WatchReader itself never sees or handles this copy, and you can turn backup off in your device's settings.</p>
 
     <h2>Network access</h2>
-    <p>The phone app uses the internet only when you search for or download a free book from Project Gutenberg under Free books. Those requests go directly to Project Gutenberg's catalogue. The watch app itself does not use the internet.</p>
+    <p>The phone app uses the internet only when you ask it to, in two places. When you search for or download a free book from Project Gutenberg under Free books, the request goes directly to Project Gutenberg's catalogue. When you get a pack of natural voices for reading aloud, its files are downloaded directly from the release page of the sherpa-onnx project on GitHub. Project Gutenberg's and GitHub's own privacy policies apply to those requests. The watch app itself does not use the internet.</p>
 
     <h2>Read aloud</h2>
-    <p>Reading aloud uses the text-to-speech engine installed on your watch or phone (for example Google Speech Services). The text is handed to that engine on the device; WatchReader does not send it anywhere. The engine's own privacy policy applies to how it processes speech.</p>
+    <p>Reading aloud uses the text-to-speech engine installed on your watch or phone (for example Google Speech Services). The text is handed to that engine on the device; WatchReader does not send it anywhere. The engine's own privacy policy applies to how it processes speech. A voice from a pack you have added on the phone is spoken by WatchReader itself, on the phone: the text does not leave the app, and once the pack is there it needs no connection.</p>
 
     <h2>Look up, translate and share</h2>
     <p>When you select words in the phone's reader and choose Look up, Translate or Share, those words are handed to the app you use for it on your phone (for example Google Translate or a dictionary). WatchReader does not send them anywhere itself; that app's own privacy policy applies.</p>
 
     <h2>Permissions</h2>
     <ul>
-        <li><strong>Internet</strong> (phone) — to find and download free books from Project Gutenberg.</li>
+        <li><strong>Internet</strong> (phone) — to find and download free books from Project Gutenberg, and to download a voice pack when you ask for one.</li>
         <li><strong>Notifications and foreground service</strong> (watch and phone) — to show the "reading aloud" control while a book is being read with the screen off.</li>
         <li><strong>Vibrate</strong> (watch) — haptic ticks when turning pages.</li>
     </ul>
